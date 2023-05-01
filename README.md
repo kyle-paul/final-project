@@ -1,5 +1,3 @@
-# final-project
-
 # Danh sách thành viên
 Họ Tên|Lớp|Email
 -|-|-
