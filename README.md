@@ -32,3 +32,6 @@ App deployment and Demo video|Nguyễn Lê Quốc Bảo|11/05/2023
         │   └── word_scrapping.py
         ├── README.md
         └── wordhoard_error.yaml
+
+## Video Demo
+https://www.youtube.com/watch?v=M0zUddo8rOU&t=4s
