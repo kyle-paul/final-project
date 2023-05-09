@@ -4,7 +4,6 @@ from translator_panel import translator
 from spelling_panel import create_dictionary_function, create_canvas, check
 from keras.models import load_model
 
-
 # load model
 model = load_model('CNN_model/CNN_model.h5')
 

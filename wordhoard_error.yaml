@@ -22,3 +22,27 @@
 2023-05-10 01:07:33:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
 2023-05-10 01:07:33:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hundred
 2023-05-10 01:07:33:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-10 01:17:00:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-10 01:17:00:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-10 01:17:00:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/capital
+2023-05-10 01:17:00:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-10 01:17:01:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-10 01:17:01:wordhoard.synonyms:ERROR:   File "C:\Users\MTT\AppData\Local\Programs\Python\Python310\lib\site-packages\wordhoard\synonyms.py", line 571, in _query_thesaurus_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "C:\Users\MTT\AppData\Local\Programs\Python\Python310\lib\site-packages\wordhoard\synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "C:\Users\MTT\AppData\Local\Programs\Python\Python310\lib\site-packages\wordhoard\utilities\caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-10 01:17:02:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-10 01:17:02:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-10 01:17:02:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/capital
+2023-05-10 01:17:02:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-10 01:22:48:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-10 01:22:48:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-10 01:22:48:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/ability
+2023-05-10 01:22:48:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-10 01:22:50:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-10 01:22:50:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-10 01:22:50:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/ability
+2023-05-10 01:22:50:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
