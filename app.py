@@ -18,7 +18,8 @@ if choice == "Translator":
 # panel 2: Spelling
 if choice == "spelling":
     st.title("Enhance your spelling")
-    result_str = create_dictionary_function()
-    create_canvas(model)
+    selected_word = create_dictionary_function()
+    result_str = create_canvas(model)
+    check(result_str, selected_word)
     
     

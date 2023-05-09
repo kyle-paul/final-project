@@ -4,6 +4,8 @@ import numpy as np
 from streamlit_drawable_canvas import st_canvas
 import cv2
 import skimage.transform
+from googletrans import Translator 
+
 
 def create_dictionary_function():
     if "score" not in st.session_state:
@@ -29,6 +31,8 @@ def create_dictionary_function():
     score = int(st.session_state["score"])
     count = int(st.session_state["count"])
     st.info(f"Your current score: {score - count} points")
+    
+    return selected_word
     
 def create_canvas(model):
     stroke_width = st.sidebar.slider("Stroke width: ", 1, 25, 10)
@@ -62,5 +66,12 @@ def create_canvas(model):
             
     return result_str
             
-def check():
-    pass
+def check(result_str, selected_word):
+    st.info(result_str)
+    translator = Translator() 
+    translation = translator.translate(result_str, src='en', dest='vi') 
+    st.info(translation.text) 
+    if selected_word == result_str.lower():
+        st.success("Correct")
+    else:
+        st.error("Incorrect")
