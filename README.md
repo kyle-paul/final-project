@@ -15,3 +15,4 @@ Convolutional Neural Network (CNN) for hand-written letters classification|Nguy�
 Build the Translator and web UI|Nguyễn Lê Quốc Bảo|9/05/2023
 Build the UI for hand-writing canvas and CNN on Streamlit|Nguyễn Lê Quốc Bảo|10/05/2023
 Dictionary function|Nguyễn Lê Quốc Bảo|10/05/2023
+App deployment and Demo video|Nguyễn Lê Quốc Bảo|11/05/2023
