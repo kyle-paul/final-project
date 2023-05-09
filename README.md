@@ -4,14 +4,14 @@ Họ Tên|Lớp|Email
 Nguyễn Lê Quốc Bảo|11CA3|baobao150106@gmail.com
 
 # Thông tin project
-## Đề tài: Phân tích khảo sát nghề nghiệp của lớp AI4ALL
-## Các thư viện sử dụng: `sentence-transformers, pyvi, umap, hdbscan`
+## Đề tài: Web app tăng cường việc học tiếng Anh 
+## Các thư viện sử dụng: `Pillow, pytesseract, pdf2image, googletrans, streamlit-drawable-canvas, opencv-python, scikit-image, keras, wordhoard, nltk`
 
 ## Các chức năng chính & kế hoạch thực hiện
 
 Chức năng|Người thực hiện|Ngày hoàn thành dự kiến
 -|-|-
-Data Engineering|Nguyễn Lê Quốc Bảo|13/05/2023
-Dimension Reduction|Nguyễn Lê Quốc Bảo|13/05/2023
-Clustering|Nguyễn Lê Quốc Bảo|13/05/2023
-WebUI|Nguyễn Lê Quốc Bảo|13/05/2023
+Convolutional Neural Network (CNN) for hand-written letters classification|Nguyễn Lê Quốc Bảo|9/05/2023
+Build the Translator and web UI|Nguyễn Lê Quốc Bảo|9/05/2023
+Build the UI for hand-writing canvas and CNN on Streamlit|Nguyễn Lê Quốc Bảo|10/05/2023
+Dictionary function|Nguyễn Lê Quốc Bảo|10/05/2023
