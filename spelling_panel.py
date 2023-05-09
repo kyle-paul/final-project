@@ -72,6 +72,6 @@ def check(result_str, selected_word):
     translation = translator.translate(result_str, src='en', dest='vi') 
     st.info(translation.text) 
     if selected_word == result_str.lower():
-        st.success("Correct")
+        st.success("CORRECT")
     else:
-        st.error("Incorrect")
+        st.error("INCORRECT")
