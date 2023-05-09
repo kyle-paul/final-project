@@ -15,7 +15,7 @@ with st.sidebar:
 if choice == "Translator":
     translator()
             
-# panel 2: Spelling
+# Panel 2: Spelling
 if choice == "spelling":
     st.title("Enhance your spelling")
     selected_word = create_dictionary_function()
