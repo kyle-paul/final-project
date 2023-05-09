@@ -6,7 +6,7 @@ import cv2
 import skimage.transform
 from googletrans import Translator 
 
-
+@st.cache_data
 def create_dictionary_function():
     if "score" not in st.session_state:
         st.session_state["score"] = 10
