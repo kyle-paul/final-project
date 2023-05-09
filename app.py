@@ -6,7 +6,7 @@ from keras.models import load_model
 
 
 # load model
-model = load_model('CNN_model.h5')
+model = load_model('CNN_model/CNN_model.h5')
 
 # Create sidebar
 with st.sidebar:
@@ -17,7 +17,7 @@ if choice == "Translator":
     translator()
             
 # Panel 2: Spelling
-if choice == "spelling":
+if choice == "Spelling":
     st.title("Enhance your spelling")
     selected_word = create_dictionary_function()
     result_str = create_canvas(model)
