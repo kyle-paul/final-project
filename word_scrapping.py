@@ -5,6 +5,7 @@ from wordhoard import Synonyms
 @st.cache_data
 def word_scrapping():
     # Get the list of words
+    nltk.download('brown')
     word_list = nltk.corpus.brown.words()
     short_words = [w for w in word_list if len(w) <= 12 and len(w) >= 7]
     freq_dist = nltk.FreqDist(w.lower() for w in short_words)
