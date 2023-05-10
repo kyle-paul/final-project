@@ -4,8 +4,11 @@ Họ Tên|Lớp|Email
 Nguyễn Lê Quốc Bảo|11CA3|baobao150106@gmail.com
 
 # Thông tin project
-## Đề tài: Web app tăng cường việc học tiếng Anh 
-## Các thư viện sử dụng: `Pillow, pytesseract, pdf2image, googletrans, streamlit-drawable-canvas, opencv-python, scikit-image, keras, wordhoard, nltk`
+## Đề tài: 
+Web app tăng cường việc học tiếng Anh
+
+## Các thư viện sử dụng: 
+`Pillow, pytesseract, pdf2image, googletrans, streamlit-drawable-canvas, opencv-python, scikit-image, keras, wordhoard, nltk`
 
 ## Các chức năng chính & kế hoạch thực hiện
 
